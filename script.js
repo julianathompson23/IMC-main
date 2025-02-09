@@ -2,7 +2,7 @@ function calculoMassaCorporal(p, a) {
   return p/a*a;
 }
 
-let massaCorporal = calculoMassaCorporal(70, 1.70);
+let massaCorporal = calculoMassaCorporal(80, 1.70);
 
 function exibirTexto (tag, texto) {
   let campo = document.querySelector (tag)
